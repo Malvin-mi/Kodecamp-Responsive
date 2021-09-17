@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: gray;
+    height: 5rem;
+    font-size: 2rem;
+}
+.logo-div, .header-icon {
+    margin: 1.5rem 6rem;
+}
+.welcome-section {
+    background-image: url('./images/hero-bg.jpg');
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+.width-80{
+ width: 80%;
+ padding: 15rem 10rem 2rem 6rem;
+}
+.wth2 {
+    font-size: 3.625rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+
+}
+.wth1 {
+    font-size: 5.875rem;
+    text-transform: uppercase;
+    font-family: "Archivo Black";
+    font-weight: 700;
+    
+}
+.wth1:after {
+    content: "";
+    display: block;
+    /* margin: 0 auto; */
+    border-bottom: 10px solid white;
+    width: 70%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+.service-svg {
+    height: 100px;
+    width: 100px;
+    
+}
+.svg-container {
+    margin: 3rem;
+}
+.help-section {
+    height: 80vh;
+    color: #111111;
+    background-color: #f2f2f2
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-services {
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    color: #999999;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+.help-txt {
+    font-weight: 700;
+    font-size: 3.125rem;
+    font-family: Roboto, sans-serif;
+    padding: 1rem 0;
+}
+.help-p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.help-btn button {
+    padding: 1.2rem;
+    background-color: #e71a23;
+    color: #ffffff;
+    border-color: #e71a23;
+    border-radius: 3px;
+}
