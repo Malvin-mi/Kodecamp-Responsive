@@ -53,6 +53,8 @@ header {
 .row {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 .service-svg {
@@ -101,4 +103,193 @@ header {
     color: #ffffff;
     border-color: #e71a23;
     border-radius: 3px;
+}
+
+.now-section {
+    height: 90vh;
+    width: 100%;
+    padding: 2rem 3rem ;
+}
+
+.now-section .left-txt {
+    font-size: 1rem;
+    width: 60%;
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.left-side {
+    padding-left: 6.5rem;
+}
+
+.right-side {
+    padding-right: 6.5rem;
+}
+
+.now-section .right-txt h2 {
+    font-size: 2.25rem;
+    font-family: Roboto, sans-serif;
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.now-section .right-txt h4 {
+    color: #e71a23;
+    font-size: 1.875rem;
+    padding-bottom: 4rem;
+
+}
+
+.best-section {
+    width: 100%;
+    align-items: center;
+    background: rgb(239,239,247);
+    background: linear-gradient(90deg, rgba(239,239,247,1) 0%, rgba(233,247,250,1) 53%, rgba(157,157,181,1) 100%);
+}
+
+.hero-img{
+    width: 100%;
+}
+.hero-pic {
+  height: 90vh;
+  width: 100%;
+  padding-left: 5rem;
+}
+.best-section .best-right {
+   width: 35rem;
+}
+.best-section .best-head {
+    color: #104e92;
+    font-size: 3.75rem;
+    font-weight: 700;
+    font-family: 'Open-sans', sans-serif;
+    align-self: flex-start;
+}
+
+.best-head:after {
+        content: "";
+        display: block;
+        /* margin: 0 auto; */
+        border-bottom: 10px solid #e71a23;
+        width: 130%;
+        padding: 2rem 0 2rem 0;
+}
+
+.best-section .best-txt {
+    padding: 2rem 0;
+}
+
+.best-section .help-btn {
+    align-self: flex-start;
+}
+
+.services-section {
+    height: 80vh;
+    padding: 1rem 7rem;
+}
+
+.services-section .serv-head {
+    align-self: flex-start;
+}
+
+.services-section .serv-head h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Open-sans', sans-serif;
+    padding-bottom: 2rem;
+}
+.services-section .service-chi {
+    width: 23rem;
+    margin: 0 10px;
+}
+
+.service-chi .red-bg {
+    background-color: red;
+    border-radius: 50%;
+    background-size: contain;
+    padding: 10px 10px;
+    /* width: 70px; */
+}
+
+.service-chi h3 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.service-chi p {
+    font-style: italic;
+    width: 74%;
+}
+
+.About-section {
+    background-color: #104e92;
+    color: white;
+}
+
+.About-section .f-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    overflow: auto;
+    padding: 3rem 10rem;
+}
+.About-section .abt-text {
+    padding-left: 8rem;
+}
+
+.About-section .abt-text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.About-section .abt-text h2 {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 10px 0 0;
+    font-family: Roboto, sans-serif;
+}
+
+.About-section .abt-text .ft {
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 600;
+}
+
+.f-pics .f-img {
+    width: 225px;
+    height: 200px;
+}
+
+.contact-section {
+    padding: 2rem 20rem;
+    height: 80vh;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    width: 85%;
+    font-weight: 600;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.contact-section h3 {
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 2rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-section .call-btn  button{
+    padding: 1.2rem 2rem;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0 2rem;
+    
 }
