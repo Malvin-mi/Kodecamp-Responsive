@@ -314,6 +314,7 @@ header {
         flex-direction: column;
         margin: 0;
         padding: 9rem 0 1rem 3rem;
+        height: max-content;
 
     }
     .wth2 {
@@ -480,4 +481,89 @@ header {
         margin: 0;
         padding: 0;
     }
+}
+
+@media screen and (max-width:320px) {
+    .width-80 .svg-container{
+        display: none;
+    }
+
+
+    .column-supreme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        padding: 1rem .5rem;
+        margin: 0;
+    }
+
+    .welcome-section {
+        height: max-content;
+        justify-content: flex-end;
+    }
+
+    .welcome-text  .wth2{
+        font-size: 1rem;
+    }
+
+    .welcome-text .wth1 {
+        font-size: 1.2rem;
+    }
+
+    .help-section .help-txt {
+        font-size: 1.2rem;
+    }
+
+    .left-side .left-img img, .right-side .right-img img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .best-section .best-right h3 {
+        font-size: 1rem;
+    }
+    .best-section .best-right {
+        width: 100%;
+    }
+    .best-section .best-head {
+        color: #104e92;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Open-sans', sans-serif;
+        text-align: left;
+        
+    }
+    
+    .best-head:after {
+            content: "";
+            display: block;
+            /* margin: 0 auto; */
+            border-bottom: 10px solid #e71a23;
+            width: 200%;
+            padding: .5rem 0 .5rem 0;
+    }
+
+    .services-section .service-chi {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .About-section .abt-text h2 {
+        font-size: 2rem;
+    }
+
+    .About-section .f-pics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
 }
