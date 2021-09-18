@@ -57,6 +57,11 @@ header {
     justify-content: center;
 
 }
+.welcome-icon {
+    padding-left: 0;
+    padding-right: 47%;
+    align-content: flex-start;
+}
 .service-svg {
     height: 100px;
     width: 100px;
@@ -292,4 +297,187 @@ header {
     border-radius: 3px;
     margin: 0 2rem;
     
+}
+
+@media screen and (max-width:785px) {
+
+    header {
+        height: 5rem;
+    }
+
+    .logo-div, .header-icon {
+        margin: 1.5rem 2rem;
+    }
+
+    .welcome-section .width-80{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 9rem 0 1rem 3rem;
+
+    }
+    .wth2 {
+        font-size: 2.625rem;
+        letter-spacing: 2px;
+        font-weight: 300;
+    
+    }
+    .wth1 {
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        font-family: "Archivo Black";
+        font-weight: 500;
+    }    
+
+    .welcome-icon {
+        padding-right: 30%;
+        
+
+    }
+    .svg-container {
+        margin: 1.5rem;
+    }
+
+    .now-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: max-content;
+
+    }
+
+    .left-side, .right-side {
+        margin: 0;
+        padding: 0;
+    }
+
+    .now-section .left-img img, .right-img img {
+        height: 20rem;
+        width: 40rem;
+    }
+
+    .best-section {
+        width: 100%;
+        height: max-content;
+    }
+    .hero-pic {
+        height: 90vh;
+        width: 100%;
+        padding-left: 3rem;
+      }
+      .best-section .best-right {
+         width: 35rem;
+      }
+      .best-section .best-head {
+          color: #104e92;
+          font-size: 2.75rem;
+          font-weight: 500;
+          font-family: 'Open-sans', sans-serif;
+          align-self: flex-start;
+          width: 40%;
+      }
+      
+      .best-head:after {
+              content: "";
+              display: block;
+              /* margin: 0 auto; */
+              border-bottom: 10px solid #e71a23;
+              width: 100%;
+              padding: 2rem 0 2rem 0;
+      }
+      
+      .best-section .best-txt {
+          padding: 2rem 0;
+      }
+      
+      .best-section .help-btn {
+          align-self: flex-start;
+      }
+
+      .services-section {
+          width: 100%;
+      }
+
+      .serve-row {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+      }
+      
+      .services-section .service-chi {
+        width: 30%;
+        margin: 0 10px;
+    }
+    
+    .service-chi .red-bg {
+        background-color: red;
+        border-radius: 50%;
+        background-size: contain;
+        padding: 10px 10px;
+        /* width: 70px; */
+    }
+    
+    .service-chi h3 {
+        padding: 2rem 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 'Open-sans', sans-serif;
+    }
+    
+    .service-chi p {
+        font-style: italic;
+        width: 74%;
+    }
+
+    .About-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .About-section .f-pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        overflow: auto;
+        padding: 3rem 2rem;
+    }
+    .About-section .abt-text {
+        padding: 0;
+        padding-top: 2rem;
+    }
+    
+    .About-section .abt-text h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.2;
+        text-align: center;
+        
+    }
+    
+    .About-section .abt-text h2 {
+        font-size: 6rem;
+        line-height: 1;
+        margin: 10px 0 0;
+        font-family: Roboto, sans-serif;
+    }
+    
+    .About-section .abt-text .ft {
+        font-family: 'Open-sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    .f-pics .f-img {
+        width: 250px;
+        height: 220px;
+    }
+
+    .contact-section {
+        margin: 0;
+        padding: 0;
+    }
 }
