@@ -483,7 +483,7 @@ header {
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:425px) {
     .width-80 .svg-container{
         display: none;
     }
