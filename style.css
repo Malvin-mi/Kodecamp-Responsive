@@ -23,7 +23,7 @@ header {
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
 }
 .width-80{
@@ -211,7 +211,7 @@ header {
 .service-chi .red-bg {
     background-color: red;
     border-radius: 50%;
-    background-size: contain;
+    /* background-size: contain; */
     padding: 10px 10px;
     /* width: 70px; */
 }
@@ -299,22 +299,18 @@ header {
     
 }
 
-@media screen and (max-width:785px) {
-
-    header {
-        height: 5rem;
-    }
-
-    .logo-div, .header-icon {
-        margin: 1.5rem 2rem;
-    }
+@media screen and (max-width:768px) {
+    /* body {
+        display: flex;
+        flex-direction: column;
+    } */
 
     .welcome-section .width-80{
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 9rem 0 1rem 3rem;
-        height: max-content;
+        /* min-height: max-content; */
 
     }
     .wth2 {
@@ -339,6 +335,11 @@ header {
         margin: 1.5rem;
     }
 
+    .help-section {
+        height: max-content;
+        padding: 2rem 0;
+    }
+
     .now-section {
         display: flex;
         flex-direction: column;
@@ -360,7 +361,8 @@ header {
 
     .best-section {
         width: 100%;
-        height: max-content;
+        padding: 2rem 0;
+        /* height: 100vh; */
     }
     .hero-pic {
         height: 90vh;
@@ -398,6 +400,7 @@ header {
 
       .services-section {
           width: 100%;
+          height: max-content;
       }
 
       .serve-row {
@@ -478,8 +481,9 @@ header {
     }
 
     .contact-section {
-        margin: 0;
-        padding: 0;
+        margin:  0;
+        padding: 2rem 0;
+        height: max-content;
     }
 }
 
